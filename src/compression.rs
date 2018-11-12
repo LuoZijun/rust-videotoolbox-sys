@@ -22,6 +22,15 @@ pub type VTCompressionOutputHandler = extern "C" fn(status: OSStatus,
                                                     infoFlags: VTEncodeInfoFlags,
                                                     sampleBuffer: CMSampleBufferRef);
 
+// VTEncodeInfoFlags
+// 
+// Informational status for encoding -- non-error flags 
+pub const kVTEncodeInfo_Asynchronous: VTEncodeInfoFlags = 1 << 0;
+pub const kVTEncodeInfo_FrameDropped: VTEncodeInfoFlags = 1 << 1;
+
+// VTCompressionSessionOptionFlags
+// 
+pub const kVTCompressionSessionBeginFinalPass: VTCompressionSessionOptionFlags = 1<<0;
 
 
 #[link(name="VideoToolBox", kind="framework")]

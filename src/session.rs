@@ -5,6 +5,9 @@ use crate::core_foundation_sys::dictionary::CFDictionaryRef;
 
 
 pub type VTSessionRef = CFTypeRef;
+pub type FrameDelay = i32;
+
+pub const kVTUnlimitedFrameDelayCount: FrameDelay = -1;
 
 
 #[link(name="VideoToolBox", kind="framework")]

@@ -34,6 +34,3 @@ pub const kVTPixelTransferNotPermittedErr: OSStatus           = -12218;
 pub const kVTColorCorrectionImageRotationFailedErr: OSStatus  = -12219;
 pub const kVTVideoDecoderRemovedErr: OSStatus                 = -17690;
 
-// Informational status for decoding -- non-error flags 
-// pub const kVTDecodeInfo_Asynchronous
-
