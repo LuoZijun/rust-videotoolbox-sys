@@ -1,0 +1,18 @@
+[package]
+name = "videotoolbox-sys"
+version = "0.0.1"
+edition = "2018"
+authors = ["luozijun <luozijun.assistant@gmail.com>"]
+description = "Bindings to VideoToolBox for OS X and iOS"
+license = "MIT"
+homepage   = "https://github.com/luozijun/rust-videotoolbox-sys"
+repository = "https://github.com/luozijun/rust-videotoolbox-sys"
+documentation = "https://docs.rs/videotoolbox-sys/*/x86_64-apple-darwin/videotoolbox_sys"
+
+
+[dependencies]
+libc = "0.2"
+core-foundation-sys = "0.6.2"
+core-graphics = "0.17"
+coremedia-sys = "0.0.2"
+corevideo-sys = "0.0.1"
