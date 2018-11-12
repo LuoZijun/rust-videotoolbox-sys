@@ -3,7 +3,6 @@
 
 extern crate libc;
 extern crate core_foundation_sys;
-extern crate core_graphics;
 extern crate coremedia_sys;
 extern crate corevideo_sys;
 
